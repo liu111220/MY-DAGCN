@@ -1,0 +1,37 @@
+10-23 17:27:36 model_name: DAGCN_features
+10-23 17:27:36 data_name: CWRU
+10-23 17:27:36 data_dir: D:\×ÀÃæ\CWRU_12K_DE
+10-23 17:27:36 transfer_task: ['[', '[', '2', ']', ',', '[', '3', ']', ']']
+10-23 17:27:36 normlizetype: mean-std
+10-23 17:27:36 cuda_device: 0
+10-23 17:27:36 checkpoint_dir: D:\×ÀÃæ\DAGCN-main\results\DAGCN
+10-23 17:27:36 pretrained: False
+10-23 17:27:36 batch_size: 64
+10-23 17:27:36 num_workers: 0
+10-23 17:27:36 bottleneck: True
+10-23 17:27:36 bottleneck_num: 256
+10-23 17:27:36 last_batch: False
+10-23 17:27:36 domain_adversarial: True
+10-23 17:27:36 hidden_size: 1024
+10-23 17:27:36 trade_off_adversarial: Cons
+10-23 17:27:36 lam_adversarial: 1
+10-23 17:27:36 opt: adam
+10-23 17:27:36 lr: 0.001
+10-23 17:27:36 momentum: 0.9
+10-23 17:27:36 weight_decay: 1e-05
+10-23 17:27:36 lr_scheduler: step
+10-23 17:27:36 gamma: 0.1
+10-23 17:27:36 steps: 150, 250
+10-23 17:27:36 resume: 
+10-23 17:27:36 max_model_num: 1
+10-23 17:27:36 middle_epoch: 50
+10-23 17:27:36 max_epoch: 300
+10-23 17:27:36 print_step: 50
+10-23 17:27:36 task_id: Task_2to3
+10-23 17:27:36 using 1 gpus
+10-23 17:27:36 -----Epoch 0/299-----
+10-23 17:27:36 current lr: [0.001, 0.001, 0.001, 0.001]
+10-23 17:27:37 Epoch: 0 [0/1231], Train Loss: 1.3824 Train Acc: 0.2344,177.5 examples/sec 0.36 sec/batch
+10-23 17:27:37 Epoch: 0 source_train-Loss: 0.9709 source_train-Acc: 0.5630, Cost 0.8 sec
+10-23 17:27:37 Epoch: 0 source_val-Loss: 0.9102 source_val-Acc: 0.6396, Cost 0.1 sec
+10-23 17:27:37 Epoch: 0 target_val-Loss: 0.9462 target_val-Acc: 0.5696, Cost 0.1 sec
